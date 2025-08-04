@@ -34,3 +34,5 @@ function useToggle<D, R>(defaultvalue = false as D, reverseValue?: R) {
     return { setLeft, setRight, set, toggle };
   }, []);
 }
+
+export default useToggle;
