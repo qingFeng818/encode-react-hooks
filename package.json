@@ -1,7 +1,6 @@
 {
   "name": "encode-react-hooks",
   "description": " React 业务 Hooks",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
@@ -24,7 +23,7 @@
     "react",
     "hooks"
   ],
-  "author": "chenghuai",
+  "author": "xingyao",
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^5.0.1",
