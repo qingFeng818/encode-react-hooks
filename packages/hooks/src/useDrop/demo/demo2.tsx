@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useDrag } from 'encode-hooks';
+import { useDrag } from 'encode-react-hooks';
 
 const COMMON_STYLE: React.CSSProperties = {
   border: '1px solid #e8e8e8',
@@ -20,13 +20,13 @@ export default () => {
 
   useDrag('', dragRef, {
     dragImage: {
-      image: '/encode-hooks/logo.png',
+      image: '/encode-react-hooks/logo.png',
     },
   });
 
   return (
     <div ref={dragRef} style={{ display: 'flex' }}>
-      <img style={COMMON_STYLE} src="/encode-hooks/logo.png" />
+      <img style={COMMON_STYLE} src="/encode-react-hooks/logo.png" />
       <div style={COMMON_STYLE}>drag me</div>
     </div>
   );

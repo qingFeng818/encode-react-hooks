@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMap } from 'encode-hooks';
+import { useMap } from 'encode-react-hooks';
 
 export default () => {
   const [map, { set, setAll, remove, reset, get }] = useMap<string | number, string>([

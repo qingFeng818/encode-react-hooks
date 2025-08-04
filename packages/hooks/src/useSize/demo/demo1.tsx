@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useSize } from 'encode-hooks';
+import { useSize } from 'encode-react-hooks';
 
 export default () => {
   const ref = useRef(null);

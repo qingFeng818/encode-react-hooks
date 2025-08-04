@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
-import { useClickAway } from 'encode-hooks';
+import { useClickAway } from 'encode-react-hooks';
 import root from 'react-shadow';
 
 export default () => {

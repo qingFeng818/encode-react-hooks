@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/encode-hooks/',
+  publicPath: '/encode-react-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -20,14 +20,14 @@ export default {
   ],
   title: ' encode hooks',
   mode: 'site',
-  favicon: '/encode-hooks/avatar.png',
-  logo: '/encode-hooks/avatar.png',
+  favicon: '/encode-react-hooks/avatar.png',
+  logo: '/encode-react-hooks/avatar.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
   alias: {
     encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
-    ['encode-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
+    ['encode-react-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -42,7 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
-    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
+    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-react-hooks' },
   ],
   menus: {
     '/': [

@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useScroll } from 'encode-hooks';
+import { useScroll } from 'encode-react-hooks';
 
 export default () => {
   const ref = useRef(null);
