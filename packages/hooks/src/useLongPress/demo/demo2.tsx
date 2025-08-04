@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { useLongPress } from 'encode-react-hooks';
+import { useLongPress } from 'encode-hooks';
 
 export default () => {
   const [pressCounter, setPressCounter] = useState(0);

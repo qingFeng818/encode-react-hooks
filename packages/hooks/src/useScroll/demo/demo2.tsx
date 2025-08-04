@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useScroll } from 'encode-react-hooks';
+import { useScroll } from 'encode-hooks';
 
 export default () => {
   const scroll = useScroll(document);

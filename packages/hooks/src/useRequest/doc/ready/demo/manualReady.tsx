@@ -1,4 +1,4 @@
-import { useRequest, useToggle } from 'encode-react-hooks';
+import { useRequest, useToggle } from 'encode-hooks';
 import Mock from 'mockjs';
 import React from 'react';
 

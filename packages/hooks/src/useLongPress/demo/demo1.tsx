@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
-import { useLongPress } from 'encode-react-hooks';
+import { useLongPress } from 'encode-hooks';
 
 export default () => {
   const [counter, setCounter] = useState(0);

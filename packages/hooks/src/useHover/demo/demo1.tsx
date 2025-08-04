@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useHover } from 'encode-react-hooks';
+import { useHover } from 'encode-hooks';
 
 export default () => {
   const ref = useRef(null);

@@ -1,6 +1,6 @@
 import Mock from 'mockjs';
 import React from 'react';
-import { useRequest } from 'encode-react-hooks';
+import { useRequest } from 'encode-hooks';
 
 function getUsername() {
   return new Promise((resolve) => {

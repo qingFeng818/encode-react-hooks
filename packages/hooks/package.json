@@ -1,5 +1,5 @@
 {
-  "name": "encode-react-hooks",
+  "name": "encode-hooks",
   "version": "0.1.0",
   "description": " React 业务 Hooks",
   "keywords": [
@@ -10,14 +10,14 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encode-react-hooks.js",
+  "unpkg": "dist/encode-hooks.js",
   "sideEffects": false,
   "authors": "chenghuai",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/encode-studio-fe/encode-react-hooks",
-  "homepage": "https://github.com/encode-studio-fe/encode-react-hooks",
+  "repository": "https://github.com/encode-studio-fe/encode-hooks",
+  "homepage": "https://github.com/encode-studio-fe/encode-hooks",
   "scripts": {
     "build": "gulp && webpack-cli"
   },

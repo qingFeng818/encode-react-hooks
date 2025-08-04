@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { useKeyPress } from 'encode-react-hooks';
+import { useKeyPress } from 'encode-hooks';
 
 export default () => {
   const [count, setCount] = useState<number>(0);

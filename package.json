@@ -1,5 +1,5 @@
 {
-  "name": "encode-react-hooks",
+  "name": "encode-hooks",
   "description": " React 业务 Hooks",
   "scripts": {
     "preinstall": "npx only-allow pnpm",

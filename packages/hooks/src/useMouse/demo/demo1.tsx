@@ -3,7 +3,7 @@
  * desc.zh-CN: 获取鼠标位置。
  */
 
-import { useMouse } from 'encode-react-hooks';
+import { useMouse } from 'encode-hooks';
 import React from 'react';
 
 export default () => {

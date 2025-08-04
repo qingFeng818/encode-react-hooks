@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useEventTarget } from 'encode-react-hooks';
+import { useEventTarget } from 'encode-hooks';
 
 export default () => {
   const [value, { onChange, reset }] = useEventTarget({

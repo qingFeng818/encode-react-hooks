@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useMouse } from 'encode-react-hooks';
+import { useMouse } from 'encode-hooks';
 
 export default () => {
   const ref = useRef(null);

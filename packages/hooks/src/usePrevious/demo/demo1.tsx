@@ -3,7 +3,7 @@
  * desc: 记录上次的 count 值
  */
 
-import { usePrevious } from 'encode-react-hooks';
+import { usePrevious } from 'encode-hooks';
 import React, { useState } from 'react';
 
 export default () => {

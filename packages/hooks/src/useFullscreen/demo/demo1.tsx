@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react';
-import { useFullscreen } from 'encode-react-hooks';
+import { useFullscreen } from 'encode-hooks';
 
 export default () => {
   const ref = useRef(null);

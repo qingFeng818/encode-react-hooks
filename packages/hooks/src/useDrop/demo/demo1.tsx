@@ -4,7 +4,7 @@
  */
 
 import React, { useRef, useState } from 'react';
-import { useDrop, useDrag } from 'encode-react-hooks';
+import { useDrop, useDrag } from 'encode-hooks';
 
 const DragItem = ({ data }) => {
   const dragRef = useRef(null);

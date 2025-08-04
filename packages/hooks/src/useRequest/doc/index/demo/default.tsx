@@ -2,7 +2,7 @@
  * title: 读取用户名称
  */
 
-import { useRequest } from 'encode-react-hooks';
+import { useRequest } from 'encode-hooks';
 import Mock from 'mockjs';
 import React from 'react';
 

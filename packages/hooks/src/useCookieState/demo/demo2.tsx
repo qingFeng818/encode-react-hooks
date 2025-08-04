@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useCookieState } from 'encode-react-hooks';
+import { useCookieState } from 'encode-hooks';
 
 export default function App() {
   const [value, setValue] = useCookieState('useCookieStateUpdater', {

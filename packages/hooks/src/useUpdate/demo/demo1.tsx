@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useUpdate } from 'encode-react-hooks';
+import { useUpdate } from 'encode-hooks';
 
 export default () => {
   const update = useUpdate();

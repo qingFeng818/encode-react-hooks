@@ -7,7 +7,7 @@
  */
 
 import React, { useState, useRef } from 'react';
-import { useKeyPress } from 'encode-react-hooks';
+import { useKeyPress } from 'encode-hooks';
 
 export default () => {
   const inputRef = useRef(null);

@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { configResponsive, useResponsive } from 'encode-react-hooks';
+import { configResponsive, useResponsive } from 'encode-hooks';
 
 configResponsive({
   small: 0,

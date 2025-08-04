@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect } from 'react';
-import { useGetState } from 'encode-react-hooks';
+import { useGetState } from 'encode-hooks';
 
 export default () => {
   const [count, setCount, getCount] = useGetState<number>(0);

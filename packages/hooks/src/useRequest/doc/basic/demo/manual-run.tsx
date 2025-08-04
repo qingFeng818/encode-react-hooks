@@ -5,7 +5,7 @@
 
 import { message } from 'antd';
 import React, { useState } from 'react';
-import { useRequest } from 'encode-react-hooks';
+import { useRequest } from 'encode-hooks';
 
 function editUsername(username: string): Promise<void> {
   return new Promise((resolve, reject) => {
