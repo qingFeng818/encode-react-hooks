@@ -9,4 +9,7 @@ module.exports = merge(common, {
     library: 'encode-hooks',
     path: path.resolve(__dirname, './dist'),
   },
+  resolve: {
+    extensions: ['.js', '.ts'],
+  },
 });

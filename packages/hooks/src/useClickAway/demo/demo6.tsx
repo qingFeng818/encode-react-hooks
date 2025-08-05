@@ -5,7 +5,7 @@
 
 import React, { useState, useRef } from 'react';
 import { useClickAway } from 'encode-hooks';
-import root from 'react-shadow';
+const root = React.lazy(() => import('react-shadow'));
 
 export default () => {
   const [counter, setCounter] = useState(0);

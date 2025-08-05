@@ -2,6 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "rootDir": "src",
-    "composite": true
+    "composite": true,
+    "jsx": "react-jsx", // 或 "preserve"（取决于你的 React 版本）
+    "esModuleInterop": true, // 确保默认导入正常工作
+    "allowSyntheticDefaultImports": true // 允许 `import React from 'react'`
   }
 }

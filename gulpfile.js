@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const uglify = require('gulp-uglify');
 const babel = require('gulp-babel');
 const ts = require('gulp-typescript');
 const del = require('del');
@@ -17,6 +18,7 @@ gulp.task('cjs', function () {
         configFile: '../../.babelrc',
       }),
     )
+    .pipe(uglify())
     .pipe(gulp.dest('lib/'));
 });
 

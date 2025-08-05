@@ -1,11 +1,12 @@
 const commonConfig = require('../../gulpfile');
 const gulp = require('gulp');
+const uglify = require('gulp-uglify');
 const fs = require('fs');
 const fse = require('fs-extra');
 const fg = require('fast-glob');
 const gm = require('gray-matter');
 
-async function genDesc(mdPath) {
+async function genDesc (mdPath) {
   if (!fs.existsSync(mdPath)) {
     return;
   }
@@ -19,7 +20,7 @@ async function genDesc(mdPath) {
   return description;
 }
 
-async function genMetaData() {
+async function genMetaData () {
   const metadata = {
     functions: [],
   };

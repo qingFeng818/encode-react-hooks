@@ -1,4 +1,4 @@
-import { CheckOutlined } from '@ant-design/icons';
+const { CheckOutlined } = React.lazy(() => import('@ant-design/icons'));
 import { useKeyPress } from 'encode-hooks';
 import React, { useState } from 'react';
 
