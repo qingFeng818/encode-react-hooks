@@ -26,7 +26,7 @@ gulp.task('es', function () {
   const tsProject = ts.createProject('tsconfig.pro.json', {
     module: 'ESNext',
   });
-  return tsProject.src().pipe(tsProject()).pipe(babel()).pipe(gulp.dest('es/'));
+  return tsProject.src().pipe(tsProject()).pipe(babel()).pipe(uglify()).pipe(gulp.dest('es/'));
 });
 
 gulp.task('declaration', function () {
