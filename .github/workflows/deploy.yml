@@ -21,9 +21,9 @@ jobs:
         env:
           NODE_OPTIONS: --openssl-legacy-provider --max_old_space_size=4096
         run: |
-           npm i -g pnpm
-           pnpm run init
-           pnpm run build:doc
+          npm i -g pnpm
+          pnpm run init
+          pnpm run build:doc
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.3
