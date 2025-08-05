@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { usePrevious } from 'encode-hooks';
+import { usePrevious } from 'encode-react-hooks';
 
 interface Person {
   name: string;

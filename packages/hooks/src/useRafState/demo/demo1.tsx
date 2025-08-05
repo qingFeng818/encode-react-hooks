@@ -2,7 +2,7 @@
  * title: 基础用法
  */
 
-import { useRafState } from 'encode-hooks';
+import { useRafState } from 'encode-react-hooks';
 import React, { useEffect } from 'react';
 
 export default () => {

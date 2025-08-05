@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useSetState } from 'encode-hooks';
+import { useSetState } from 'encode-react-hooks';
 
 interface State {
   hello: string;

@@ -10,7 +10,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encode-hooks.js",
+  "unpkg": "dist/encode-react-hooks.js",
   "sideEffects": false,
   "authors": "chenghuai",
   "publishConfig": {

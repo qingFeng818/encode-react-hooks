@@ -3,7 +3,7 @@
  * desc: 通过配置 `exactMatch`, 开启精确匹配。比如按 [shift + c] ，不会触发 [c]。
  */
 const CheckOutlined = React.lazy(() => import('@ant-design/icons/CheckOutlined'));
-import { useKeyPress } from 'encode-hooks';
+import { useKeyPress } from 'encode-react-hooks';
 import React, { useState } from 'react';
 
 export default () => {

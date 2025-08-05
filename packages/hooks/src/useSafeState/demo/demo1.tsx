@@ -1,4 +1,4 @@
-import { useSafeState } from 'encode-hooks';
+import { useSafeState } from 'encode-react-hooks';
 import React, { useEffect, useState } from 'react';
 
 const Child = () => {

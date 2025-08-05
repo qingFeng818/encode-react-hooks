@@ -20,9 +20,9 @@ footer: Copyright (c) © 2023 by encode studio, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
+$ pnpm install --save encode-react-hooks
 # or
-$ yarn add encode-hooks
+$ yarn add encode-react-hooks
 ```
 
 ## 🔨 使用
@@ -30,5 +30,5 @@ $ yarn add encode-hooks
 参考 `Hooks`内容，使用如下：
 
 ```ts
-import { useToggle } from 'encode-hooks';
+import { useToggle } from 'encode-react-hooks';
 ```

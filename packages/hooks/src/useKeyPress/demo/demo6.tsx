@@ -1,5 +1,5 @@
 const { CheckOutlined } = React.lazy(() => import('@ant-design/icons'));
-import { useKeyPress } from 'encode-hooks';
+import { useKeyPress } from 'encode-react-hooks';
 import React, { useState } from 'react';
 
 export default () => {

@@ -1,4 +1,4 @@
-import { useBoolean } from 'encode-hooks';
+import { useBoolean } from 'encode-react-hooks';
 import useRequest from '../../../';
 import Mock from 'mockjs';
 import React, { useState } from 'react';

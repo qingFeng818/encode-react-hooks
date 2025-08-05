@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
-import { useClickAway } from 'encode-hooks';
+import { useClickAway } from 'encode-react-hooks';
 const root = React.lazy(() => import('react-shadow'));
 
 export default () => {

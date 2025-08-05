@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { useKeyPress } from 'encode-hooks';
+import { useKeyPress } from 'encode-react-hooks';
 
 export default () => {
   const [key, setKey] = useState<string>();
