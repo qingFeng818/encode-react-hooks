@@ -58,6 +58,6 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **encode Hooks** <https://github.com/qingFeng818/encode-react-hooks/>
+- **encode react hooks** <https://github.com/qingFeng818/encode-react-hooks/>
 - **GitHub**: <https://github.com/qingFeng818/encode-react-hooks/>
   </br>
